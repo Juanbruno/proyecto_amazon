@@ -3,21 +3,20 @@ class BlogController < ApplicationController
 	def index
 	end
 
-	def about
+	def new
 	end
 
-	def contact
+	def create
+		#aqui hace el guardado a la base de datos y una vez termina 
+		redirect_to blog_index_path
 	end
 
 	def show
 	end
 
-	def new
-	end
-
 	def edit
 	end
-
+	
 	def update
 	end
 
